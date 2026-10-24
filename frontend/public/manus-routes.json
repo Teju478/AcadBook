@@ -1,0 +1,26 @@
+{
+  "routes": [
+    {"path":"/","title":"Institution Directory"},
+    {"path":"/portal/:slug","title":"Institution Portal"},
+    {"path":"/register/user","title":"User Registration"},
+    {"path":"/register/admin","title":"Admin Registration"},
+    {"path":"/login/user","title":"User Login"},
+    {"path":"/login/admin","title":"Admin Login"},
+    {"path":"/user/dashboard","title":"User Dashboard"},
+    {"path":"/user/resources","title":"Browse Resources"},
+    {"path":"/user/resources/:resourceId","title":"Resource Details"},
+    {"path":"/user/resources/:resourceId/book","title":"Booking Request"},
+    {"path":"/user/bookings/:bookingId/confirmation","title":"Booking Confirmation"},
+    {"path":"/user/bookings","title":"My Bookings"},
+    {"path":"/user/profile","title":"User Profile"},
+    {"path":"/admin/dashboard","title":"Admin Dashboard"},
+    {"path":"/admin/requests","title":"Booking Requests"},
+    {"path":"/admin/requests/:bookingId","title":"Booking Request Details"},
+    {"path":"/admin/bookings","title":"All Bookings"},
+    {"path":"/admin/resources","title":"Resource Management"},
+    {"path":"/admin/resources/new","title":"Add Resource"},
+    {"path":"/admin/resources/:resourceId/edit","title":"Edit Resource"},
+    {"path":"/admin/users","title":"Users Directory"},
+    {"path":"/admin/profile","title":"Admin Profile"}
+  ]
+}
